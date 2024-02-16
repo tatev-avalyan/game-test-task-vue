@@ -22,3 +22,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### Add .env file 
+VUE_APP_API_URL = "https://poker.evenbetpoker.com/api/web/"
