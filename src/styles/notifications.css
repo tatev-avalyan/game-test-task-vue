@@ -1,0 +1,29 @@
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.notification p {
+  margin: 0;
+}
+
+.close-icon {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}

@@ -1,0 +1,21 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-color: #222;
+  min-height: 100vh;
+  padding-top: 60px;
+}
+
+.log-out-section {
+  text-align: right;
+  padding: 20px;
+}
+
+.logout-button {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
